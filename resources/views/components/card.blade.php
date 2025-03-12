@@ -1,12 +1,11 @@
-<div class="card h-100">
+<tr>
+    <th scope="row">{{ $company }}</th>
+    <td>{{ $departureStation }}</td>
+    <td>{{ $arrivalStation }}</td>
+    <td>{{ $departureTime }} : {{ $arrivalTime }}</td>
+    <td>{{ $trainCode }}</td>
 
-    <div class="card-body">
-        <h5 class="card-title"></h5>
-        <p class="card-text"></p>
-        <p class="card-text"></p>
-        <p class="card-text"></p>
-        <p class="card-text">
-        </p>
-
-    </div>
-</div>
+    <td>{{ $totalCarriages }}</td>
+    <td>{{ $onTime }}</td>
+    <td>{{ $cancelled }}</td>
+</tr>
